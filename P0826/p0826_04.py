@@ -27,4 +27,12 @@ print("이름: {}, 합계: {}, 평균: {:.2f}".format(name, total, avg))
 # a,b = 1,2
 # print(a,b) 이런 형식은 가능함
 
+# 2진수로 변경하는 명령로 bin() : print(bin(5)) 결과값은 101
+# 2진수를 10진수로 출력하고자 할 때 : print(int("101",2)) 결과값은 5
 
+a = 9
+b = 2
+print(a/b)
+print(a//b) # 나눗셈 후 몫만 출력
+print(a%b) # 나눗셈 후 나머지값만 출력
+print(a%2==1) #홀수면 True, 짝수면 False 짝홀수 구분
