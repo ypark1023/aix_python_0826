@@ -25,6 +25,8 @@ print(a2**b2)
 
 # 예제: 아이디, 패스워드 입력받아 출력하시오
 
-aa=input("아이디를 입력하세요")
-bb=input("패스워드를 입력하세요")
-print("아이디: {}, 패스워드: {}".format(aa, bb))
+id=input("아이디를 입력하세요")
+pw=input("패스워드를 입력하세요")
+print("아이디 확인: {}".format(id=="ypark"))
+print("패스워드 확인: {}".format(pw=="1234"))
+print("아이디: {}, 패스워드: {}".format(id, pw))
