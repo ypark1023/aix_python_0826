@@ -13,11 +13,18 @@ print("합계: {} 평균: {}".format(kor+eng+math, (kor+eng+math)/3))
 
 
 
-
+name = input("이름을 입력하시오")
 kor = int(input("국어 점수를 입력하시오"))
 eng = int(input("영어 점수를 입력하시오"))
 math = int(input("수학 점수를 입력하시오"))
 
 total = kor+eng+math
 avg = (kor+eng+math)/3
-print("합계: {} 평균: {}".format(total, avg))
+print("이름: {}, 합계: {}, 평균: {:.2f}".format(name, total, avg))
+
+
+
+# a,b = 1,2
+# print(a,b) 이런 형식은 가능함
+
+
