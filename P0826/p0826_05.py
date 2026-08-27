@@ -33,8 +33,10 @@ avg2 = total2/3
 
 print("번호\t이름\t국어\t영어\t수학\t합계\t평균")
 print("-"*60)
+print("\n")
 print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".format(no, name, kor, eng, math, total, avg))
 print("-"*60)
+print("\n")
 print("{}\t{}\t{}\t{}\t{}\t{}\t{:.2f}".format(no2, name2, kor2, eng2, math2, total2, avg2))
 
 
