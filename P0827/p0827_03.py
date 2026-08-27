@@ -1,3 +1,5 @@
+# 조건문
+
 # 예제 : 입력한 숫자가 양수인지 음수인지 출력하시오
 
 a = int(input("숫자 입력: "))
@@ -20,10 +22,11 @@ print("입력값은 {}".format(b))
 
 
 # # 랜덤함수 import random / random.randint(1, 100) : 1에서 100 사이 정수 하나 랜덤으로 주겠다
+# import random     # 클래스 명령문을 줘야 한다
 # num = random.randint(1, 100)
 # print(num)
 
-import random           #명령을 먼저 내려야 한다
+import random
 num = random.randint(1,10)
 input1 = int(input("1~10 사이 정수 입력: "))
 if (num == input1) :
