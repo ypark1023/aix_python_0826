@@ -4,44 +4,44 @@
 # 예제4 : 구구단을 출력
 
 
-# # 예제 1 : 1~100 합계
+# 예제 1 : 1~100 합계
 
-# sum = 0
-# for i in range(1,101) :
-#     sum = sum+i
-# print (sum)
+sum = 0
+for i in range(1,101) :
+    sum = sum+i
+print (sum)
 
-# # 결과값은 5050
-
-
-
-# # 예제 2~3 : 200 넘는 시점
-
-# sum = 0
-# for i in range(1,101) :
-#     sum = sum+i
-#     if sum > 200 : 
-#         print ("200 넘을 때 i값: ", i)
-#         print ("200 넘을 때 합계: ", sum+i)
-#         print ("200 넘기 전 i값: ", i-1)
-#         print ("200 넘기 전 합계: ", sum-i)
-#         break
-
-# # 결과값
-# # 200 넘을 때 i값:  20
-# # 200 넘을 때 합계:  230
-# # 200 넘기 전 i값:  19
-# # 200 넘기 전 합계:  190
+# 결과값은 5050
 
 
 
-# # 예제 4: 구구단 출력
-# for i in range(1,10):
-#     for j in range(1,10):
-#         print("{} X {} = {}".format(i,j,i*j))
+# 예제 2~3 : 200 넘는 시점
 
-# # 결과값
-# # 1 X 1 = 1 ~ 9 X 9 = 81
+sum = 0
+for i in range(1,101) :
+    sum = sum+i
+    if sum > 200 : 
+        print ("200 넘을 때 i값: ", i)
+        print ("200 넘을 때 합계: ", sum+i)
+        print ("200 넘기 전 i값: ", i-1)
+        print ("200 넘기 전 합계: ", sum-i)
+        break
+
+# 결과값
+# 200 넘을 때 i값:  20
+# 200 넘을 때 합계:  230
+# 200 넘기 전 i값:  19
+# 200 넘기 전 합계:  190
+
+
+
+# 예제 4: 구구단 출력
+for i in range(1,10):
+    for j in range(1,10):
+        print("{} X {} = {}".format(i,j,i*j))
+
+# 결과값
+# 1 X 1 = 1 ~ 9 X 9 = 81
 
 
 
