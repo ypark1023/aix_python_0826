@@ -54,31 +54,32 @@
 
 
 
-import random
-lotto = random.sample(range(1,46),6)
+# # 로또 맞추기
+# import random
+# lotto = random.sample(range(1,46),6)
 
-mynums = []
-i = 0
-while i < 6 :
-    no = int(input("번호 입력: "))
-    if no not in mynums :
-        mynums.append(no)
-        i = i+1
-    else : 
-        print("번호 있음")
+# mynums = []
+# i = 0
+# while i < 6 :
+#     no = int(input("번호 입력: "))
+#     if no not in mynums :
+#         mynums.append(no)
+#         i = i+1
+#     else : 
+#         print("번호 있음")
 
-print("나의 입력 숫자: {}".format(mynums))
+# print("나의 입력 숫자: {}".format(mynums))
 
-answer = []
-count = 0
+# answer = []
+# count = 0
 
-for i in mynums :
-    if i in lotto :
-        count = count+1
-        answer.append(i)
+# for i in mynums :
+#     if i in lotto :
+#         count = count+1
+#         answer.append(i)
     
 
-print("로또번호: {}".format(lotto))
-print("나의 입력 숫자: {}".format(mynums))
-print("맞춘 숫자: {}".format(answer))
-print("맞춘 개수: {}".format(count))
+# print("로또번호: {}".format(lotto))
+# print("나의 입력 숫자: {}".format(mynums))
+# print("맞춘 숫자: {}".format(answer))
+# print("맞춘 개수: {}".format(count))
