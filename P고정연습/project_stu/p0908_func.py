@@ -47,11 +47,11 @@ def s_input():
 
 # 성적출력 함수 선언 - 클래스 변경 완료
 def s_output():
-    stus.print()
-    # print("-"*50)
-    # if len(stuList) == 0 : 
-    #     print("입력된 성적 없음")
-    # else :
+    print("-"*50)
+    if len(stus.slist) == 0 : 
+        print("입력된 성적 없음")
+    else :
+        stus.print()
     #     for s in stuList :
     #         print(f"{s["no"]}\t{s["name"]}\t{s["kor"]}\t{s["eng"]}\t{s["math"]}\t{s["total"]}\t{s["avg"]:.2f}\t{s["rank"]}")
     print()
