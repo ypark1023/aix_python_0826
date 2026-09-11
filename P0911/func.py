@@ -38,6 +38,7 @@ def s_input():
 def s_output():
     print("-"*60)
     print("[학생 성적 출력]")
+    print("-"*60)
     if len(stus.slist) == 0:
         print("입력된 성적 없음")
     else:
@@ -59,6 +60,7 @@ def s_modi():
     elif temp == 1:
         print("[수정할 과목]")
         choice = int(input("1.국어 / 2.영어 / 3.수학 / 0.이전화면 : "))
+        print("-"*60)
         if choice == 1 :
             print(f"현재 국어 점수: {s.kor}")
             s.kor = int(input("변경할 국어 성적 입력: "))
