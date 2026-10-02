@@ -84,7 +84,8 @@ for i in range(len(flights)):
         prices1 = int(prices.get_text(strip=True).replace(",", ""))
 
         if prices1 <= 70000:
-            print(f"항공사: {names1} / 출발시간: {times1} / 도착시간: {times2} / 가격: {prices1}")
+            # print(f"항공사: {names1} / 출발시간: {times1} / 도착시간: {times2} / 가격: {prices1}")
+            print(f"{names1}/{times1}/{times2}/{prices1}")
         else : pass
     except Exception as e:
         pass
